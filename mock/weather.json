@@ -1,0 +1,61 @@
+//  http://wthrcdn.etouch.cn/weather_mini?city=%E6%9D%AD%E5%B7%9E
+{
+    "desc": "OK",
+    "status": 1000,
+    "data": {
+        "wendu": "6",
+        "ganmao": "天凉，昼夜温差较大，较易发生感冒，请适当增减衣服，体质较弱的朋友请注意适当防护。",
+        "forecast": [
+            {
+                "fengxiang": "东北风",
+                "fengli": "微风级",
+                "high": "高温 7℃",
+                "type": "晴",
+                "low": "低温 -1℃",
+                "date": "3日星期三"
+            },
+            {
+                "fengxiang": "东风",
+                "fengli": "微风级",
+                "high": "高温 7℃",
+                "type": "小雨",
+                "low": "低温 0℃",
+                "date": "4日星期四"
+            },
+            {
+                "fengxiang": "北风",
+                "fengli": "微风级",
+                "high": "高温 9℃",
+                "type": "多云",
+                "low": "低温 0℃",
+                "date": "5日星期五"
+            },
+            {
+                "fengxiang": "北风",
+                "fengli": "3-4级",
+                "high": "高温 6℃",
+                "type": "晴",
+                "low": "低温 -1℃",
+                "date": "6日星期六"
+            },
+            {
+                "fengxiang": "西北风",
+                "fengli": "3-4级",
+                "high": "高温 11℃",
+                "type": "晴",
+                "low": "低温 3℃",
+                "date": "7日星期天"
+            }
+        ],
+        "yesterday": {
+            "fl": "微风",
+            "fx": "东北风",
+            "high": "高温 3℃",
+            "type": "多云",
+            "low": "低温 -1℃",
+            "date": "2日星期二"
+        },
+        "aqi": "128",
+        "city": "杭州"
+    }
+}
