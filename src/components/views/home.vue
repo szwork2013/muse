@@ -95,7 +95,7 @@
         </div>
         <div class="forecast">
           <table width="100%" cellpadding="0" cellspacing="0" border="0">
-            <tr v-for="item in weather.forecast">
+            <tr v-for="item in weather.forecast.slice(0,5)">
               <td>{{item.date}}</td>
               <td>{{item.high}}</td>
               <td>{{item.low}}</td>
@@ -224,6 +224,7 @@ export default {
       var city = '北京';
       if(remote_ip_info.country == "中国") city = remote_ip_info.city;
       view.getWeather(city, function(data){
+        //console.log(data);
         view.weather = data;
       });
     },
