@@ -44,7 +44,7 @@
 .slist h1{font-size:16px; line-height:58px; font-weight:bold; text-indent:15px; color:#3E8DBD;}
 .slist li{width:100%; height:53px; line-height:53px; font-size:16px; text-indent:50px; background:url(../../assets/timer.svg) 15px center no-repeat; background-size:20px auto; color:#888; cursor:pointer; transition:all .3s; border-left:5px solid transparent;} 
 .slist li.active,.slist li:hover{background-color:#fcfcfc; text-shadow:0 1px 0 #eee; color:#333;}
-.slist li.active{border-left:5px solid #5D9CEC; padding-left:0;}
+.slist li.active{background-color:#fff; border-left:5px solid #5D9CEC; padding-left:0;}
 </style>
 <template>
 <div class="wrap">
