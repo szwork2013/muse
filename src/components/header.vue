@@ -176,6 +176,7 @@ export default {
       view.user = "user-000000";
       view.$dispatch('toast', '退出成功');
       view.$dispatch('userLogin', view.user);
+      view.DeleteCookie('musedefaultusercounter');
     },
     reg: function(){
       var view = this;
