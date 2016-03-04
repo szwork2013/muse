@@ -1,6 +1,6 @@
 <style scoped>
-.gameCanter{width:1200px; height:640px; margin:20px auto; background-color:#f0f5f8; border-radius:6px; overflow:hidden; padding-left:240px; box-shadow:0 8px 24px -6px rgba(0,0,0,.14); position:relative;}
-.gameCanter .sidebar{width:240px; height:100%; position:absolute; left:0; top:0; background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#27accf), to(#105799)); color:#FFF;}
+.gameCanter{width:1200px; height:640px; margin:20px auto; background-color:#fff; border-radius:6px; overflow:hidden; padding-left:240px; box-shadow:0 8px 24px -6px rgba(0,0,0,.14); position:relative;}
+.gameCanter .sidebar{width:240px; height:100%; position:absolute; left:0; top:0; background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#228FF6), to(#0A7AE8)); color:#FFF;}
 .gameCanter .tit{line-height:70px; text-align:center; font-size:16px; height:70px; margin-bottom:20px;}
 .gameCanter .tit span{padding-left:30px; position:relative; font-weight:bold;}
 .gameCanter .tit span:after{content:""; display:block; height:22px; width:22px; background:url(../../assets/img/game.svg) center center no-repeat; background-size:100% auto; position:absolute; left:0; top:50%; margin-top:-11px;}
@@ -10,7 +10,7 @@ ul.gameList li:hover{background-color:rgba(255,255,255,.08); color:rgba(255,255,
 ul.gameList li.active{text-shadow:0 1px 0 rgba(0,0,0,.1);}
 ul.gameList li.active:after{content:""; display:block; height:100%; width:3px; position:absolute; left:0; top:0; background-color:#feb34d;}
 .gameCanter .main{width:100%; height:100%; position:relative; overflow:hidden;}
-.gameCanter .map{width:800px; height:575px; margin:-287px 0 0 -400px; position:absolute; left:50%; top:50%; opacity:0; transition:opacity .3s; -webkit-transition:opacity .3s; border-radius:8px; overflow:hidden; box-shadow:0 12px 22px -8px rgba(0, 57, 84, 0.44); -webkit-box-shadow:0 12px 22px -8px rgba(0, 57, 84, 0.44);}
+.gameCanter .map{width:800px; height:575px; margin:-287px 0 0 -400px; position:absolute; left:50%; top:50%; opacity:0; transition:opacity .3s; -webkit-transition:opacity .3s; border-radius:8px; overflow:hidden; box-shadow:0 12px 52px -8px rgba(0, 19, 74, 0.44); -webkit-box-shadow:0 12px 52px -8px rgba(0, 19, 74, 0.44);}
 /* PROGRESS */
 .progress{background-color:#e5e9eb; height:0.25em; position:relative; width:24em; position:absolute; left:50%; top:40%; margin:-0.125em 0 0 -12em;}
 .progress .num{position:absolute; left:50%; top:-30px; width:80px; text-align:center; margin-left:-40px;}
@@ -30,7 +30,6 @@ ul.gameList li.active:after{content:""; display:block; height:100%; width:3px; p
 <template>
   <div class="gameCanter">
     <style>
-    body{background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#DDF0F6), to(#E0F1F8));}
     .uploader{display:none;}
     </style>
     <div class="sidebar">
