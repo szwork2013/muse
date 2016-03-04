@@ -1,6 +1,6 @@
 <style scoped>
-.chead{width:100%; height:48px; line-height:48px; border-bottom:1px solid #f8f8f8; background:#fcfcfc url(../../assets/list.svg) no-repeat 20px center; background-size:26px auto; padding-left:56px; font-size:18px; font-weight:600; color:#666; position:relative;}
-.chead i{display:block; cursor:pointer; height:48px; top:0; position:absolute; right:20px; font-size:14px; padding-left:26px; background:url(../../assets/edit.svg) no-repeat 0 center; background-size:20px auto; color:#999;}
+.chead{width:100%; height:48px; line-height:48px; border-bottom:1px solid #f8f8f8; background:#fcfcfc url(../../assets/img/list.svg) no-repeat 20px center; background-size:26px auto; padding-left:56px; font-size:18px; font-weight:600; color:#666; position:relative;}
+.chead i{display:block; cursor:pointer; height:48px; top:0; position:absolute; right:20px; font-size:14px; padding-left:26px; background:url(../../assets/img/edit.svg) no-repeat 0 center; background-size:20px auto; color:#999;}
 .clist{padding:10px 24px; min-height:728px;}
 .article{border-bottom:1px solid #f8f8f8; padding:8px 0; position:relative;}
 .article h1{font-size:16px; font-weight:bold; line-height:40px; width:100%; overflow:hidden; white-space:nowrap; word-break:keep-all; text-overflow:ellipsis; cursor:pointer;}
@@ -11,7 +11,7 @@
 .article .panel .c i{height:14px; width:14px; border-radius:59%; margin-top:-2px; display:inline-block; vertical-align:middle; background-color:#ccc;}
 .article .panel .r{cursor:pointer;}
 .article .panel .r:hover{color:#666;}
-.article .del{width:24px; height:24px; position:absolute; right:0; top:10px; background:url(../../assets/del.svg) no-repeat center center; background-size:100% auto; opacity:0.4; transition:opacity .6s; -webkit-transition:opacity .6s;}
+.article .del{width:24px; height:24px; position:absolute; right:0; top:10px; background:url(../../assets/img/del.svg) no-repeat center center; background-size:100% auto; opacity:0.4; transition:opacity .6s; -webkit-transition:opacity .6s;}
 .article .del:hover{opacity:1;}
 </style>
 <template>

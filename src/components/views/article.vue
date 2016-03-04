@@ -1,7 +1,7 @@
 <style scoped>
-.chead{width:100%; height:48px; line-height:48px; border-bottom:1px solid #f8f8f8; background:#fcfcfc url(../../assets/list.svg) no-repeat 20px center; background-size:26px auto; padding-left:56px; font-size:18px; font-weight:600; color:#666; position:relative;}
-.chead.back{background-image:url(../../assets/back.svg); background-size:18px auto; padding-left:48px; background-position:18px center;}
-.chead i{display:block; cursor:pointer; height:48px; top:0; position:absolute; right:20px; font-size:14px; padding-left:26px; background:url(../../assets/edit.svg) no-repeat 0 center; background-size:20px auto; color:#999;}
+.chead{width:100%; height:48px; line-height:48px; border-bottom:1px solid #f8f8f8; background:#fcfcfc url(../../assets/img/list.svg) no-repeat 20px center; background-size:26px auto; padding-left:56px; font-size:18px; font-weight:600; color:#666; position:relative;}
+.chead.back{background-image:url(../../assets/img/back.svg); background-size:18px auto; padding-left:48px; background-position:18px center;}
+.chead i{display:block; cursor:pointer; height:48px; top:0; position:absolute; right:20px; font-size:14px; padding-left:26px; background:url(../../assets/img/edit.svg) no-repeat 0 center; background-size:20px auto; color:#999;}
 .chead span{cursor:pointer;}
 .article{padding:10px 20px; border:none;}
 .title{font-size:22px; text-align:center; line-height:60px;}

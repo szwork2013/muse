@@ -3,7 +3,7 @@
 .gameCanter .sidebar{width:240px; height:100%; position:absolute; left:0; top:0; background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#27accf), to(#105799)); color:#FFF;}
 .gameCanter .tit{line-height:70px; text-align:center; font-size:16px; height:70px; margin-bottom:20px;}
 .gameCanter .tit span{padding-left:30px; position:relative; font-weight:bold;}
-.gameCanter .tit span:after{content:""; display:block; height:22px; width:22px; background:url(../../assets/game.svg) center center no-repeat; background-size:100% auto; position:absolute; left:0; top:50%; margin-top:-11px;}
+.gameCanter .tit span:after{content:""; display:block; height:22px; width:22px; background:url(../../assets/img/game.svg) center center no-repeat; background-size:100% auto; position:absolute; left:0; top:50%; margin-top:-11px;}
 ul.gameList li{width:100%; height:40px; line-height:40px; transition:all .2s; -webkit-transition:all .2s; text-indent:30px; color:rgba(255,255,255,.8); position:relative; cursor:pointer;}
 ul.gameList li.active,
 ul.gameList li:hover{background-color:rgba(255,255,255,.08); color:rgba(255,255,255,1);}

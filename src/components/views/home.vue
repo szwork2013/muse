@@ -9,14 +9,14 @@
 .item:hover .imgr:before{content:""; display:block; height:400px; width:400px; margin:-200px 0 0 -200px; position:absolute; left:50%; top:50%; background-color:rgba(0,0,0,.4); z-index:4; animation:waveOut .8s; -webkit-animation:waveOut .8s;}
 .item .ifo{height:84px; line-height:84px; padding:0 20px; color:#ccc;}
 .item .ifo .date,.item .ifo .like{padding-left:22px;}
-.item .ifo .date{background:url("../../assets/time.svg") 0 center no-repeat; background-size:auto 18px;}
+.item .ifo .date{background:url("../../assets/img/time.svg") 0 center no-repeat; background-size:auto 18px;}
 .item .ifo .like{margin-left:20px; position:relative;}
 .item .ifo .like:after,
-.item .ifo .like:before{content:""; display:block; height:22px; width:22px; background:url("../../assets/like.svg") 0 center no-repeat; background-size:auto 14px; position:absolute; left:0; top:50%; margin-top:-11px;}
+.item .ifo .like:before{content:""; display:block; height:22px; width:22px; background:url("../../assets/img/like.svg") 0 center no-repeat; background-size:auto 14px; position:absolute; left:0; top:50%; margin-top:-11px;}
 .item .ifo .like.active:after,
-.item .ifo .like.active:before{background-image:url("../../assets/likeAtv.svg");}
+.item .ifo .like.active:before{background-image:url("../../assets/img/likeAtv.svg");}
 .item .ifo .like.active:after{animation:boom .8s; -webkit-animation:boom .8s;}
-.item .ifo .del{display:block; height:24px; width:24px; background:url("../../assets/del.svg") center center no-repeat; background-size:auto 100%; opacity:0.4; transition:opacity .3s; -webkit-transition:opacity .3s;}
+.item .ifo .del{display:block; height:24px; width:24px; background:url("../../assets/img/del.svg") center center no-repeat; background-size:auto 100%; opacity:0.4; transition:opacity .3s; -webkit-transition:opacity .3s;}
 .item .ifo .del:hover{opacity:1;}
 @keyframes boom{
   0%{transform:scale3d(1, 1, 1); -webkit-transform:scale3d(1, 1, 1); opacity:1;}
@@ -45,9 +45,9 @@
 .user .avatar:after{content:attr(data-name); display:block; width:200px; line-height:46px; text-align:center; color:#FFF; font-size:22px; position:absolute; left:50%; margin-left:-100px; top:140px; text-shadow:0 1px 3px rgba(0,0,0,0.33);}
 .user .avatar:hover{background-color:rgba(255,255,255,0);}
 .user .avatar:hover .imgr img{box-shadow:0 0 14px #f66214; -webkit-box-shadow:0 0 14px #f66214;}
-.user .setup{width:24px; height:24px; position:absolute; z-index:8; right:10px; top:10px; opacity:.3; background:url("../../assets/setup.svg") center center no-repeat; background-size:100%; transition:opacity .3s; -webkit-transition:opacity .3s;}
+.user .setup{width:24px; height:24px; position:absolute; z-index:8; right:10px; top:10px; opacity:.3; background:url("../../assets/img/setup.svg") center center no-repeat; background-size:100%; transition:opacity .3s; -webkit-transition:opacity .3s;}
 .user .setup:hover{opacity:1;}
-.addBtn{width:48px; height:48px; position:fixed; right:16px; top:50%; margin-top:-24px; background:#00B1FF url("../../assets/add.svg") center center no-repeat; background-size:16px 16px; overflow:hidden; z-index:999; opacity:.68; cursor:pointer; border-radius:50%; transition:all .6s; -webkit-transition:all .6s;}
+.addBtn{width:48px; height:48px; position:fixed; right:16px; top:50%; margin-top:-24px; background:#00B1FF url("../../assets/img/add.svg") center center no-repeat; background-size:16px 16px; overflow:hidden; z-index:999; opacity:.68; cursor:pointer; border-radius:50%; transition:all .6s; -webkit-transition:all .6s;}
 .addBtn:hover{opacity:1; box-shadow:0 4px 14px rgba(63,196,255,.8); -webkit-box-shadow:0 4px 14px rgba(63,196,255,.8);}
 .loginBox .box{height:340px; width:440px; margin:-170px 0 0 -220px;}
 .loginBox .box input[type=text]{margin-bottom:15px;}
@@ -59,12 +59,12 @@
 .weather i{font-size:26px; font-weight:lighter; margin-right:6px;}
 .weather .current{line-height:1.4; text-shadow:0 1px 3px rgba(0,0,0,.4); cursor:default;}
 .weather .current .city{padding-left:24px; margin-bottom:5px; position:relative; cursor:pointer;}
-.weather .current .city:after{content:""; display:block; height:20px; width:20px; left:0; top:0; position:absolute; background:url("../../assets/local.svg") 0 center no-repeat; background-size:20px auto; opacity:0.8;}
+.weather .current .city:after{content:""; display:block; height:20px; width:20px; left:0; top:0; position:absolute; background:url("../../assets/img/local.svg") 0 center no-repeat; background-size:20px auto; opacity:0.8;}
 .weather .forecast{line-height:1.8; padding:10px 0; width:460px;}
 .weather .forecast td{padding:6px 10px; border:1px solid rgba(255, 255, 255, 0.02); background-color:rgba(255, 255, 255, 0.1); border-width:0 1px 1px 0;}
 .weather .forecast tr:last-child td{border-bottom:0;}
 .weather .ganmao{line-height:2; font-size:12px;}
-.weather .close{opacity:.6; width:24px; height:24px; background:url("../../assets/close2.svg") center center no-repeat; background-size:100% auto; transition:opacity .3s; -webkit-transition:opacity .3s; position:absolute; right:20px; bottom:20px; cursor:pointer;}
+.weather .close{opacity:.6; width:24px; height:24px; background:url("../../assets/img/close2.svg") center center no-repeat; background-size:100% auto; transition:opacity .3s; -webkit-transition:opacity .3s; position:absolute; right:20px; bottom:20px; cursor:pointer;}
 .loginBox .fire{display:block; height:100%; width:100%;}
 .loginBox .singleItm{width:316px; height:50px; position:absolute; left:50%; top:50%; margin:-25px 0 0 -158px; background-color:#FFF; padding:10px 100px 10px 15px;}
 .loginBox .singleItm input{width:100%; height:100%; border:1px solid #efefef; text-indent:8px; line-height:28px; display:block;}

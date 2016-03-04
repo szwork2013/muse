@@ -42,7 +42,7 @@
 #sec:before{width:2px; height:80px; border-radius:4px; background:#e13e1b; position:absolute; bottom:-12px; left:50%; -webkit-transform:translate(-50%, 0); -ms-transform:translate(-50%, 0); transform:translate(-50%, 0);}
 .slist{margin-bottom:80px;}
 .slist h1{font-size:16px; line-height:58px; font-weight:bold; text-indent:15px; color:#3E8DBD;}
-.slist li{width:100%; height:53px; line-height:53px; font-size:16px; text-indent:50px; background:url(../../assets/timer.svg) 15px center no-repeat; background-size:20px auto; color:#888; cursor:pointer; transition:all .3s; border-left:5px solid transparent;} 
+.slist li{width:100%; height:53px; line-height:53px; font-size:16px; text-indent:50px; background:url(../../assets/img/timer.svg) 15px center no-repeat; background-size:20px auto; color:#888; cursor:pointer; transition:all .3s; border-left:5px solid transparent;} 
 .slist li.active,.slist li:hover{background-color:#fcfcfc; text-shadow:0 1px 0 #eee; color:#333;}
 .slist li.active{background-color:#fff; border-left:5px solid #5D9CEC; padding-left:0;}
 </style>
@@ -92,7 +92,7 @@ import Vue from 'Vue'
 import Firebase from 'firebase'
 import NProgress from 'nprogress'
 const api = new Firebase('https://zenway.firebaseio.com/')
-require('../../assets/simditor.css')
+require('../../assets/css/simditor.css')
 
 //自定义过滤器
 function formatMonth(m){

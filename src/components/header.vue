@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header" @mouseout="hideCodeBox">
-      <div class="logo"><img src="../assets/cube.png" height="50"></div>
+      <div class="logo"><img src="../assets/img/cube.png" height="50"></div>
       <div class="center">
         <ul class="guide">
           <li v-link="{ name: 'home', activeClass: 'active' }">首页</li>
@@ -14,7 +14,7 @@
           <ul>
             <li>
               <a @mouseover="showCodeBox | debounce 300" class="wechat"></a>
-              <div class="qrcode" :class="{'show': showCode}"><img src="../assets/qrcode.png"></div>
+              <div class="qrcode" :class="{'show': showCode}"><img src="../assets/img/qrcode.png"></div>
             </li>
             <li><a href="http://user.qzone.qq.com/741849580/main" target="blank" title="作者QQ空间" class="qzone"></a></li>
             <li><a href="http://weibo.com/zyh0921/" target="blank" title="作者新浪微博" class="sina"></a></li>

@@ -591,6 +591,7 @@
   color: #333;
   outline: none;
   word-wrap: break-word;
+  overflow: hidden;
 }
 .simditor .simditor-body > :first-child, .editor-style > :first-child {
   margin-top: 0 !important;
@@ -741,5 +742,4 @@
 .simditor .simditor-body img, .editor-style img {
   margin: 0 5px;
   vertical-align: middle;
-  max-width: 100%;
 }

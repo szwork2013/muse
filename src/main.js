@@ -26,6 +26,20 @@ import NProgress from 'nprogress'
 //require('./libs/jquery.finger')
 require('./libs/requestAnimationFrame')
 
+// filter
+/*var filter = require('./filter');
+
+Object.keys(filter).forEach(function(k) {
+  Vue.filter(k, filter[k]);
+});*/
+
+//directive
+/*var directive = require('./directive')
+
+Object.keys(directive).forEach(function(k) {
+  Vue.directive(k, directive[k]);
+});*/
+
 Vue.use(Router);
 var router = new Router();
 
