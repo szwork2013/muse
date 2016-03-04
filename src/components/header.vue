@@ -7,7 +7,7 @@
           <li v-link="{ name: 'home', activeClass: 'active' }">首页</li>
           <li v-link="{ name: 'note', activeClass: 'active' }">随身笔记</li>
           <li v-link="{ name: 'games', activeClass: 'active' }">轻松娱乐</li>
-          <li>网址收藏</li>
+          <li>摄影作品</li>
           <li>关于作者</li>
         </ul>
         <div class="content">

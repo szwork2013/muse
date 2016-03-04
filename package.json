@@ -4,8 +4,8 @@
   "description": "my-muse-blog",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --quiet",
-    "build": "export NODE_ENV=production && webpack --progress --hide-modules"
+    "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --config build/webpack.dev.config.js",
+    "build": "webpack --progress --hide-modules --config build/webpack.pro.config.js"
   },
   "author": "owlaford",
   "license": "MIT",
@@ -20,7 +20,6 @@
     "css-loader": "^0.23.1",
     "expose-loader": "^0.7.1",
     "file-loader": "^0.8.5",
-    "firebase": "^2.4.1",
     "jade": "^1.11.0",
     "jquery": "^2.2.1",
     "node-sass": "^3.4.2",
@@ -35,9 +34,12 @@
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^7.1.4",
     "vue-router": "^0.7.7",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "es6-promise": "^3.1.2",
+    "firebase": "^2.4.1",
     "vue": "^1.0.10",
     "vue-router": "^0.7.11"
   }

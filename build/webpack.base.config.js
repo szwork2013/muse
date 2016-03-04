@@ -2,7 +2,7 @@ var webpack = require('webpack')
 
 var plugins = [
     //提公用js到common.js文件中
-    new webpack.optimize.CommonsChunkPlugin('common.js'),
+    //new webpack.optimize.CommonsChunkPlugin('common.js'),
 
     // 使用 ProvidePlugin 加载使用率高的依赖库
     new webpack.ProvidePlugin({
@@ -49,22 +49,4 @@ module.exports = {
         plugins: ['transform-runtime']
     },
     plugins: plugins
-}
-
-if (process.env.NODE_ENV === 'production') {
-    module.exports.plugins = [
-        new webpack.DefinePlugin({
-            'process.env': {
-                NODE_ENV: 'production'
-            }
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        }),
-        new webpack.optimize.OccurenceOrderPlugin()
-    ]
-} else {
-    module.exports.devtool = '#source-map'
 }
