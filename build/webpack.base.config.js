@@ -28,7 +28,6 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue'
             },{
-                // edit this for additional asset file types
                 test: /\.(png|jpg|gif|svg)$/,
                 loader: 'url-loader?limit=8192'
             },{
@@ -76,8 +75,6 @@ module.exports = {
         ]
     },
 
-    // example: if you wish to apply custom babel options
-    // instead of using vue-loader's default:
     babel: {
         presets: ['es2015', 'stage-0'],
         plugins: ['transform-runtime']

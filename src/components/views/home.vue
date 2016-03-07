@@ -157,7 +157,7 @@ const api = new Firebase('https://zenway.firebaseio.com/')
 require('../../libs/bubble')
 
 //自定义过滤器
-function formatDate(t){
+/*function formatDate(t){
   if(!t){
     t = (new Date()).getTime();
   }
@@ -175,7 +175,7 @@ function formatDate(t){
   return str;
 }
 
-Vue.filter('formatDate', formatDate)
+Vue.filter('formatDate', formatDate)*/
 
 export default {
   name: 'home',

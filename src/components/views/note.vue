@@ -97,12 +97,12 @@ const api = new Firebase('https://zenway.firebaseio.com/')
 
 
 //自定义过滤器
-function formatMonth(m){
+/*function formatMonth(m){
 	var str = m.substring(0,4) +'年'+ m.substring(4) +'月';
 	return str;
 }
 
-Vue.filter('formatMonth', formatMonth)
+Vue.filter('formatMonth', formatMonth)*/
 
 export default {
 	name: 'note',

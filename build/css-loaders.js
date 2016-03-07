@@ -1,7 +1,7 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = function (options) {
-  // generate loader string to be used with extract text plugin
+
   function generateLoaders (loaders) {
     var sourceLoader = loaders.map(function (loader) {
       var extraParamChar
@@ -22,7 +22,6 @@ module.exports = function (options) {
     }
   }
 
-  // http://vuejs.github.io/vue-loader/configurations/extract-css.html
   return [
     {
       key: 'css',

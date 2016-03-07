@@ -18,6 +18,7 @@ import Vue from 'Vue'
 import Router from 'vue-router'
 import App from './app.vue'
 import routerMap from './routers'
+import filter from './filter'
 import NProgress from 'nprogress'
 //解决移动端点击问题
 //import FastClick from 'fastclick'
@@ -26,12 +27,10 @@ import NProgress from 'nprogress'
 //require('./libs/jquery.finger')
 require('./libs/requestAnimationFrame')
 
-// filter
-/*var filter = require('./filter');
-
+// 自定义过滤器
 Object.keys(filter).forEach(function(k) {
   Vue.filter(k, filter[k]);
-});*/
+});
 
 //directive
 /*var directive = require('./directive')
