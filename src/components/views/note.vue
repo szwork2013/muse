@@ -87,12 +87,14 @@
 </div>
 </template>
 
+<style src="../../assets/css/simditor.css"></style>
+
 <script>
 import Vue from 'Vue'
 import Firebase from 'firebase'
 import NProgress from 'nprogress'
 const api = new Firebase('https://zenway.firebaseio.com/')
-require('../../assets/css/simditor.css')
+
 
 //自定义过滤器
 function formatMonth(m){
