@@ -5,8 +5,6 @@ var plugins = [
     //提公用js到common.js文件中
     //new webpack.optimize.CommonsChunkPlugin('common.js'),
 
-    new ExtractTextPlugin("style.css"),
-
     // 使用 ProvidePlugin 加载使用率高的依赖库
     new webpack.ProvidePlugin({
       $: 'jquery',
