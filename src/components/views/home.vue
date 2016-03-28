@@ -5,7 +5,7 @@
 
 .item{width:100%; height:100%; overflow:hidden; background-color:#fff; -webkit-transition:all 0.2s linear; transition:all 0.2s linear; box-shadow:0 3px 8px -4px rgba(0,0,0,0.15); -webkit-box-shadow:0 3px 8px -4px rgba(0,0,0,0.15); border-radius:4px;}
 .item:hover{-webkit-box-shadow:0 15px 30px rgba(0,0,0,0.1); box-shadow:0 15px 30px rgba(0,0,0,0.1); -webkit-transform:translate3d(0, -2px, 0); transform:translate3d(0, -2px, 0);}
-.item .imgr{width:100%; height:280px; overflow:hidden; position:relative; background-color:#eee; text-align:center; background-size:auto 100%; background-repeat:no-repeat;}
+.item .imgr{width:100%; height:280px; overflow:hidden; position:relative; background-color:#eee; text-align:center; background-size:auto 100%; background-position:center; background-repeat:no-repeat;}
 .item:hover .imgr:before{content:""; display:block; height:400px; width:400px; margin:-200px 0 0 -200px; position:absolute; left:50%; top:50%; background-color:rgba(0,0,0,.4); z-index:4; animation:waveOut .8s; -webkit-animation:waveOut .8s;}
 .item .ifo{height:84px; line-height:84px; padding:0 20px; color:#ccc;}
 .item .ifo .date,.item .ifo .like{padding-left:22px;}
